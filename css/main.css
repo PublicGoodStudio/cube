@@ -8,18 +8,19 @@ body {
   cursor: none;
 
 }
+
 img {
   width: 100%;
   position: relative;
-  animation: floatBubble 40s linear alternate infinite;
-  height: 17788px;
+  animation: full-height-scroll 20s linear alternate infinite;
+  height: 10000px;
 }
 
-@keyframes floatBubble {
+@keyframes full-height-scroll {
     0% {
         top:0px;
     }
     100% {
-        top: -17000px;
+        top: -10000px;
     }
 }
